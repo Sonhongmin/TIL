@@ -12,7 +12,7 @@
     4. rm ma*.py
     (ma*(에스트로퍼) => ma 문자를 포함한 모든 파일이름의 .py 파일을 삭제)
 
-    5. rm [a-i]*.py 
+    5. rm [a-i]*.py
     ( [a-i]* a부터i 까지의 문자가 들어가있는 .py 파일을 삭제
 
     6. cat sample.py
@@ -25,14 +25,14 @@
     $ git config --global core.editor "vim"
     $ git config --global core.paper "cat"
 
-    (git bash -> 복사하는거 shift + insert) 
+    (git bash -> 복사하는거 shift + insert)
 
 2. git clone(기본적인 예시)
     - 깃 레포지토리에서 code 영역의 git주소 복사
     - 깃 복사할 곳에 가서 $ git clone git주소
     - 지금 있는 경로에 레포지토리 이름으로 된 폴더생성
     - README.md 파일 수정함
-    - $ git status 
+    - $ git status
     - 하면 빨간색으로 수정되었다고 뜸
 
 3. $ git add README.md
@@ -45,7 +45,7 @@
 
     그럼 위쪽에 설명적고(맨 윗줄은 제목느낌)
 
-    엔터 두번에 상세설명 쓰고 
+    엔터 두번에 상세설명 쓰고
 
     저장 하고 나감(:wq)
 
@@ -53,7 +53,7 @@
 
 5. $ git push origin main
 
-    이 때 push할 때 비밀번호 넣으라고 나오는데 
+    이 때 push할 때 비밀번호 넣으라고 나오는데
 
     이건 깃 settings에서 token 발급 해서 그 비밀번호로 해야함
 
